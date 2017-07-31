@@ -17,7 +17,7 @@ p, a, span {
 }
 
 p {
-	line-height: 1.4;
+	line-height: 2.0;
 }
 
 h1, h2 {
@@ -44,21 +44,23 @@ h2 {
 }
 
 body {
-	background-image: url("../images/pattern.png");
+	background-image: url("../images/nice_snow.png");
 }
 
 .textlinks {
 	display: inline-block;
+	text-align: center;
 	padding: 35px 0;
 	vertical-align: top;
 	position: absolute;
 	right: 0px;
 	width: 270px;
+
 }
 
 .textlinks a {
-	padding-right: 7px;
-	padding-left: 7px;
+	padding-right: 10px;
+	padding-left: 10px;
 	border-right: 1px;
 	border-color: black;
 	border-style: solid;
@@ -71,7 +73,6 @@ body {
 main {
 	width: 960px;
 	margin: auto;
-	margin-bottom: 40px;
 }
 
 .profilepic {
@@ -84,6 +85,7 @@ main {
 	float: left;
 	background-color: white;
 	padding: 10px;
+	margin-bottom: 50px;
 }
 
 .sidebar {
@@ -101,6 +103,7 @@ footer {
 	border-top: 8px;
 	border-style: solid;
 	border-color: lightseagreen;
+	margin-top: 20px;
 }
 
 .connectwithme img {
@@ -109,9 +112,7 @@ footer {
 }
 
 .heading {
-	border-bottom: 5px;
-	border-color: #666666
-	border-style: solid;
+
 }
 
 .headerelements {
@@ -127,12 +128,38 @@ footer {
 
 
 
-
-/********************CSS FOR PORTFOLIO.HTML********************/
+/*********************************************************************/
+/********************UNIQUE CSS FOR PORTFOLIO.HTML********************/
 
 .portfolio {
 	width: 650px;
 	float: left;
 	background-color: white;
+	margin-bottom: 50px;
 	padding: 10px;
 }
+
+.portfolio p {
+	color: #ffffff;
+	font-weight: bold;
+	background-color: lightseagreen;
+	opacity: 0.9;
+	width: 250px;
+	height: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	top: -50px;
+	text-transform: uppercase;
+}
+
+.row1 .row2 {
+	margin-bottom: 5px;
+}
+
+.portfolio li {
+	display: inline-block;
+	padding: 10px;
+}
+
