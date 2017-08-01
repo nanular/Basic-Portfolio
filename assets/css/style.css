@@ -63,6 +63,10 @@ body {
 
 }
 
+.hidden {
+	display: none;
+}
+
 .textlinks a {
 	padding-right: 10px;
 	padding-left: 10px;
@@ -158,10 +162,6 @@ footer {
 	position: relative;
 	top: -50px;
 	text-transform: uppercase;
-}
-
-.row1 .row2 {
-	margin-bottom: 5px;
 }
 
 .portfolio li {
