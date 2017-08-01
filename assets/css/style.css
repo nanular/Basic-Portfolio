@@ -2,27 +2,23 @@
 	box-sizing: border-box;
 }
 
+body {
+	background-image: url("../images/nice_snow.png");
+}
+
+/**********************************************/
+/******************* HEADER *******************/
+/**********************************************/
+
 header {
 	margin-bottom: 50px;
 	background-color: white;
 }
 
-a {
-	text-decoration: none;
-}
-
-p, a, label {
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	color: #777777;
-}
-
-span {
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	color: white;
-}
-
-p {
-	line-height: 1.7;
+.headerelements {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
 }
 
 h1, h2 {
@@ -39,17 +35,14 @@ h1 {
 	text-align: center;
 }
 
-h2 {
-	font-size: 24px;
-	color: lightseagreen;
-	padding: 7px;
-	border-bottom: 2px;
-	border-color: #dddddd;
-	border-style: solid;
+a {
+	text-decoration: none;
 }
 
-body {
-	background-image: url("../images/nice_snow.png");
+p,
+a {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
 }
 
 .textlinks {
@@ -60,11 +53,6 @@ body {
 	position: absolute;
 	right: 0px;
 	width: 270px;
-
-}
-
-.hidden {
-	display: none;
 }
 
 .textlinks a {
@@ -77,6 +65,51 @@ body {
 
 .textlinks a:last-child {
 	border-right: none;
+}
+
+/**********************************************/
+/******************* FOOTER *******************/
+/**********************************************/
+
+span {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: white;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	padding: 30px;
+	background-color: #666666;
+	border-top: 8px;
+	border-style: solid;
+	border-color: lightseagreen;
+	margin-top: 20px;
+}
+
+.container {
+		min-height: calc(100vh - 124px);
+}
+
+/************************************************/
+/************** MAIN / ABOUT ME *****************/
+/************************************************/
+
+p {
+	line-height: 1.7;
+}
+
+h2 {
+	font-size: 24px;
+	color: lightseagreen;
+	padding: 7px;
+	border-bottom: 2px;
+	border-color: #dddddd;
+	border-style: solid;
+}
+
+.hidden {
+	display: none;
 }
 
 main {
@@ -99,22 +132,16 @@ main {
 	margin-bottom: 50px;
 }
 
+
+/***********************************************/
+/******************* SIDEBAR *******************/
+/***********************************************/
+
 .sidebar {
 	float: right;
 	width: 270px;
 	padding: 10px;
 	background-color: white;
-}
-
-footer {
-	clear: both;
-	text-align: center;
-	padding: 30px;
-	background-color: #666666;
-	border-top: 8px;
-	border-style: solid;
-	border-color: lightseagreen;
-	margin-top: 20px;
 }
 
 .connectwithme img {
@@ -129,22 +156,9 @@ footer {
 	transform: rotate(25deg);
 }
 
-.headerelements {
-	width: 960px;
-	margin: 0 auto;
-	position: relative;
-}
-
-.container {
-		min-height: calc(100vh - 124px);
-	}
-
-
-
-
-/*********************************************************************/
-/********************UNIQUE CSS FOR PORTFOLIO.HTML********************/
-/*********************************************************************/
+/******************************************************/
+/******************* PORTFOLIO PAGE *******************/
+/******************************************************/
 
 .portfolio {
 	width: 650px;
@@ -192,10 +206,9 @@ footer {
 	opacity: 1;
 }
 
-
-/********************************************************************/
-/********************UNIQUE CSS FOR CONTACT.HTML*********************/
-/********************************************************************/
+/****************************************************/
+/******************* CONTACT PAGE *******************/
+/****************************************************/
 
 
 .contact {
@@ -208,6 +221,8 @@ footer {
 
 label {
 	margin: 5px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
 }
 
 input[type=text] {
