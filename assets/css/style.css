@@ -11,8 +11,10 @@ body {
 /**********************************************/
 
 header {
-	margin-bottom: 50px;
 	background-color: white;
+	border-bottom: 2px;
+	border-style: solid;
+	border-color: #dddddd;
 }
 
 .headerelements {
@@ -67,33 +69,13 @@ a {
 	border-right: none;
 }
 
-/**********************************************/
-/******************* FOOTER *******************/
-/**********************************************/
-
-span {
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	color: white;
-}
-
-footer {
-	clear: both;
-	text-align: center;
-	padding: 30px;
-	background-color: #666666;
-	border-top: 8px;
-	border-style: solid;
-	border-color: lightseagreen;
-	margin-top: 20px;
-}
-
-.container {
-		min-height: calc(100vh - 124px);
-}
-
 /************************************************/
 /************** MAIN / ABOUT ME *****************/
 /************************************************/
+
+section {
+	margin-top: 50px;
+}
 
 p {
 	line-height: 1.7;
@@ -103,7 +85,7 @@ h2 {
 	font-size: 24px;
 	color: lightseagreen;
 	padding: 7px;
-	border-bottom: 2px;
+	border-bottom: 1px;
 	border-color: #dddddd;
 	border-style: solid;
 }
@@ -119,7 +101,7 @@ main {
 
 .profilepic {
 	float: left;
-	margin-right: 15px;
+	margin: 0 15px 5px 0;
 	width: 250px;
 	border-radius: 5px;
 }
@@ -142,6 +124,11 @@ main {
 	width: 270px;
 	padding: 10px;
 	background-color: white;
+	margin-top: 50px;
+}
+
+.connectwithme {
+	text-align: center;
 }
 
 .connectwithme img {
@@ -154,6 +141,30 @@ main {
 .connectwithme img:hover {
 	opacity: 0.6;
 	transform: rotate(25deg);
+}
+
+/**********************************************/
+/******************* FOOTER *******************/
+/**********************************************/
+
+span {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: white;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	padding: 30px;
+	background-color: #666666;
+	border-top: 8px;
+	border-style: solid;
+	border-color: lightseagreen;
+	margin-top: 20px;
+}
+
+.container {
+		min-height: calc(100vh - 98px);
 }
 
 /******************************************************/
@@ -205,6 +216,7 @@ main {
 .portfolio p:hover {
 	opacity: 1;
 }
+
 
 /****************************************************/
 /******************* CONTACT PAGE *******************/
